@@ -15,9 +15,12 @@ is an important part of agricultural automation. It
 implements more appropriate planting and maintenance
 methods for different cultivated crops, so as to improve
 the planting quality and market competitiveness of
-agricultural products.
+agricultural products.<br>
+![system](Photo/system.png)
+![total](Photo/total.png)
 
-# Automatic alignment of the head
+# Automatic alignment of pan-tilt to spray
+## alignment method 
 1. The camera will monitor and recognize the scene in real time. When weeds come into the camera’s field of view, the computer will accurately identify them and
 mark the location information of weeds. <br>
 
@@ -26,3 +29,14 @@ mark the location information of weeds. <br>
 
 3. Location statement: <br>
 ![test](Photo/test.png)
+
+## spray device
+hardware list:<br>
+12v setdowm module, Optically coupled relay(5v),12w pump 2203-2, nozzle<br>
+A high/low level signal to control the relay that the pump would work.<br>
+![pump](Photo/pump.jpg)
+
+# Soil senser system
+The push rod above the sensor is stretched by the forward
+or reverse control of the voltage. we use two-way drive axle.
+![h2](Photo/h2.png)
